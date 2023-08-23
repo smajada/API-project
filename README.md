@@ -4,8 +4,6 @@
 
 > The main objective of this project is to create a user-friendly web application that enables users to search for Netflix shows based on their titles. By leveraging the power of APIs, ExpressJS, and Node.js, I've build a seamless platform that retrieves and displays relevant Netflix show information.
 
-### 🏠 [Homepage](https://github.com/smajada/API-project)
-
 ## Install
 
 ```sh
@@ -35,6 +33,3 @@ npm run test
 
 Give a ⭐️ if this project helped you!
 
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
