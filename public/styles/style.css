@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #322f3f;
+  height: 100vh;
+  color: #ffff;
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 3em 1em 3em;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 0px 100px 0px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+nav a:hover {
+  color: #be462e;
+}
+
+nav h1 {
+  color: #be462e;
+}
+
+button {
+  padding: 1em;
+  color: #ffff;
+  font-weight: bold;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  font-size: 0.75em;
+  text-shadow: 1px 1px 0px rgba(50, 47, 63, 1);
+  background-color: transparent;
+  border-color: #ffff;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Input */
+.input-title {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.input-title input {
+  height: 3em;
+  width: 40%;
+  background-color: #322f3f;
+  color: #ffff;
+}
+
+.input-title button {
+  width: 10%;
+}
+
+/* Netflix page */

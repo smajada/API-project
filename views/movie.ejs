@@ -1,0 +1,30 @@
+<%- include('./partials/header.ejs') %>
+
+<div class="container-fluid align-items-center bg-gradient bg-dark">
+  <div class="row row-cols-4"> 
+    <% for (let index = 0; index < results.length; index++) { %>
+      <% if (index % 4 === 0) { %> 
+        </div><div class="row">
+      <% } %>
+
+      <div class="col-md-3">
+        <div class="card text-bg-dark m-3 mx-auto" style="width: 18rem;">
+          <% if (!results[index].jawSummary.backgroundImage || !results[index].jawSummary.logoImage) { %>
+            <img src="https://tinyurl.com/6h4a8me4" class="card-img-top" alt="..." style="object-fit: cover; max-height: 162px;">
+          <% } else { %>
+            <img src="<%= results[index].jawSummary.backgroundImage.url %>" class="card-img-top" alt="...">
+          <% } %>
+          <div class="card-body">
+            <h5 class="card-title"><%= results[index].jawSummary.title %></h5>
+            <p class="card-text"><%= results[index].jawSummary.synopsis %></p>
+          </div>
+        </div>
+      </div>
+
+    <% } %>
+  </div>
+</div>
+
+
+<%- include('./partials/footer.ejs') %>
+

@@ -1,0 +1,24 @@
+<%- include('./partials/header.ejs') %>
+
+  <main>
+    <!-- <div class="container">
+    <h1>Insert your movie title here</h1>
+    <form method="post" action="/movie">
+      <div class="input-title">
+        <input type="text" name="title" id="title" placeholder="Movie title">
+        <button type="submit">send</button> 
+      </div>
+    </form>
+  </div> -->
+
+
+    <form class="mx-auto my-auto w-75 p-3" method="post" action="/movie">
+    <label for="title" class="form-label fs-1 fw-bold">Insert a movie title</label>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" name="title" id="title" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary fs-3" type="submit">Send</button>
+      </div>
+    </form>
+  </main>
+
+  <%- include('./partials/footer.ejs') %>
