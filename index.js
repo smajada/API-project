@@ -28,7 +28,7 @@ app.post("/movie", async (req, res) => {
 				},
 				headers: {
 					"X-RapidAPI-Key":
-						"cbff81af66msh94778e3fc6d3a8ap16ce29jsn951cb2c34d0d",
+						[YOR_KEY],
 					"X-RapidAPI-Host": "netflix54.p.rapidapi.com",
 				},
 			}
