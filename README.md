@@ -13,13 +13,7 @@ npm install
 ## Usage
 
 ```sh
-nodemon index.js
-```
-
-## Run tests
-
-```sh
-npm run test
+node index.js
 ```
 
 ## Author
